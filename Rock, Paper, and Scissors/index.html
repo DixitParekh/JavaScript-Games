@@ -10,13 +10,13 @@
     <h1>Rock Paper Scissor</h1>
     <div class="choices">
         <div class="choice" id = "rock">
-            <img src = "img/Rock.png">
+            <img src = "img/Rock.png" onclick = "playRound('rock')">
         </div>
         <div class="choice" id = "paper">
-            <img src = "img/Paper.png">
+            <img src = "img/Paper.png" onclick = "playRound('paper')">
         </div>
         <div class="choice" id = "scissor">
-            <img src = "img/Scissor.png">
+            <img src = "img/Scissor.png" onclick = "playRound('scissor')">
         </div>
     </div>
 
@@ -34,6 +34,7 @@
             <p>Ties</p>
         </div>
     </div>
+    
     <div class = "msg-container">
         <p id = "msg">Play your move.</p>
     </div>
